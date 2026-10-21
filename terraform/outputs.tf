@@ -1,14 +1,9 @@
 output "pubsub_topic" {
-  description = "Publish events to this topic"
-  value       = google_pubsub_topic.this.name
+  value = module.warehouse.pubsub_topic
 }
-
 output "bigquery_table" {
-  description = "Streaming destination table"
-  value       = "${var.project_id}.${google_bigquery_dataset.this.dataset_id}.${google_bigquery_table.events.table_id}"
+  value = module.warehouse.bigquery_table
 }
-
 output "subscription" {
-  description = "BigQuery subscription name"
-  value       = google_pubsub_subscription.to_bigquery.name
+  value = module.warehouse.subscription
 }

@@ -3,7 +3,9 @@
 > Real-time analytics on Google Cloud: Pub/Sub streams straight into a partitioned BigQuery table via a BigQuery subscription — no Dataflow required.
 > **Author:** Muhammad Ahmad · **IaC:** Terraform · **Cloud:** GCP
 
-![Terraform](https://img.shields.io/badge/Terraform-1.5%2B-7B42BC?logo=terraform&logoColor=white)
+![Terraform CI](https://github.com/AhmadMughal-DS/gcp-bigquery-streaming-warehouse-terraform/actions/workflows/terraform.yml/badge.svg)
+![Terraform](https://img.shields.io/badge/Terraform-1.6%2B-7B42BC?logo=terraform&logoColor=white)
+![Security](https://img.shields.io/badge/scanned-tfsec%20%7C%20checkov-success)
 ![GCP](https://img.shields.io/badge/GCP-Pub%2FSub%20%7C%20BigQuery-4285F4?logo=googlecloud&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
